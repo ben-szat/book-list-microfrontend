@@ -10,9 +10,9 @@ export default defineConfig({
       name: "booklist",
       filename: "remoteEntry.js", // Ensure this is correct
       exposes: {
-        "./BookList": "./src/BookList.tsx",
+        "./BookList": "./src/App.tsx",
       },
-      shared: ["react", "react-dom", "@mui/material"],
+      shared: ["react", "react-dom", "@mui/material", "@apollo/client"],
     }),
   ],
   server: {
