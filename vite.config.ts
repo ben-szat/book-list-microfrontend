@@ -12,7 +12,7 @@ export default defineConfig({
       exposes: {
         "./BookList": "./src/App.tsx",
       },
-      shared: ["react", "react-dom", "@mui/material", "@apollo/client"],
+      shared: ["react", "react-dom", "@mui/material", "@mui/icons-material", "@apollo/client"],
     }),
   ],
   server: {

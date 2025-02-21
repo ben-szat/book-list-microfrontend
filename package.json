@@ -17,6 +17,7 @@
     "@emotion/styled": "^11.14.0",
     "@fontsource/roboto": "^5.1.1",
     "@mui/material": "^6.4.4",
+    "@mui/icons-material": "^6.4.4",
     "graphql": "^16.10.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
